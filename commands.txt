@@ -1,0 +1,21 @@
+ git switch q3
+touch commands.txt
+notepad commands.txt &
+ls
+touch gitignor
+notepad .gitignore &
+git status
+rm gitignor
+git status
+cat passwords.txt
+git add .gitignore
+git add commands.txt
+git add commit -m "Выполнила задание q3: настроила .gitignore и создала журнал команл"
+git commit -m "Выполнила задание q3: настроила .gitignore и создала журнал команд"
+git remote -v
+git remote rename origin fork
+git remote add https://github.com/aishalaa/TASK1_3.git
+git remote add origin  https://github.com/aishalaa/TASK1_3.git
+git remote -v
+
+
